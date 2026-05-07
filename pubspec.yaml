@@ -1,0 +1,41 @@
+name: toko_online_huda
+description: "A Flutter online store application with shopping cart and payment processing."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Internationalization package for currency formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the Flutter
+  # team is curated to avoid friction and confusion during Flutter development.
+  # More information: https://dart.dev/guides#lints-and-static-analysis
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Example assets configuration
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Example custom fonts
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
